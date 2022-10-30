@@ -2,10 +2,104 @@
 body {
     margin: 0;
     font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    font-size: 18px;
 }
 
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    color: #6b7280;
+}
+
+ul li a:hover {
+    color: #5A67D8;
+}
+
+.overview-hero {
+    background-color: #E2E8F0;
+}
+
+.overview-hero-image {
+    height: 2%;
+}
+
+.learn-about {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 4%;
+    margin-right: 80px;
+    margin-left: 120px;
+}
+
+/* .card-body {
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 3%;
+} */
+
+.card-body h3 {
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.testing {
+    background-color: #4A5568;
+    color: #ffffff;
+}
+
+.cta {
+    background-color: #48BB78;
+    border-radius: 5px;
+}
+
+.stories h2 {
+    color: #5A67D8;
+}
+
+.stories h3 {
+    font-size: 18px;
+}
+
+.stories a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color: #fff;
+}
+
+.newsletter button {
+    background-color: #5A67D8;
+}
+
+footer {
+    background-color: #4A5568;
+    color: #fff;
 }
