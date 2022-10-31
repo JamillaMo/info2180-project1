@@ -39,10 +39,18 @@ ul li a:hover {
 
 .overview-hero {
     background-color: #E2E8F0;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
 
-.overview-hero-image {
-    height: 2%;
+.overview-hero-image img {
+    height: 200px;
+    float: left;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
 }
 
 .learn-about {
@@ -56,11 +64,15 @@ ul li a:hover {
     margin-left: 120px;
 }
 
-/* .card-body {
+.card {
     border-color: #E2E8F0;
     border-radius: 5px;
     box-shadow: 3%;
-} */
+}
+
+.card img {
+    height: 180px;
+}
 
 .card-body h3 {
     color: #48BB78;
@@ -70,15 +82,33 @@ ul li a:hover {
 .testing {
     background-color: #4A5568;
     color: #ffffff;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 65% 45%;
+    justify-content: center;
 }
 
 .cta {
     background-color: #48BB78;
     border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+}
+
+.cta a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .stories h2 {
     color: #5A67D8;
+}
+
+article img {
+    height: 180px;
+    width: 150px;
+    border-radius: 50%;
 }
 
 .stories h3 {
@@ -93,6 +123,7 @@ ul li a:hover {
 .newsletter {
     background-color: #48BB78;
     color: #fff;
+    padding: 20px;
 }
 
 .newsletter button {
@@ -102,4 +133,5 @@ ul li a:hover {
 footer {
     background-color: #4A5568;
     color: #fff;
+    padding: 15px;
 }
